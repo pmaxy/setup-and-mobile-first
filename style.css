@@ -124,6 +124,15 @@ header ul li {
   max-height: 100%;
 }
 
+.about_content h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  max-width: 60%;
+}
+
 .work div > h2 {
   font-weight: 700;
   font-size: 35px;
@@ -222,15 +231,6 @@ header ul li {
   flex-direction: column;
   gap: 12px;
   align-items: flex-start;
-}
-
-.about_content h2 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #172b4d;
-  max-width: 60%;
 }
 
 .lang1,
