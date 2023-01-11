@@ -69,7 +69,7 @@ header ul li {
 .headline h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 44px;
+  max-width: 70%;
   line-height: 52px;
   color: #172b4d;
 }
@@ -224,12 +224,13 @@ header ul li {
   align-items: flex-start;
 }
 
-.about_content h1 {
+.about_content h2 {
   font-style: normal;
   font-weight: 700;
-  font-size: 44px;
+  font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  max-width: 60%;
 }
 
 .lang1,
