@@ -81,7 +81,7 @@ header ul li {
   color: #344563;
 }
 
-.headline > a {
+.connect {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -192,13 +192,6 @@ header ul li {
   align-items: center;
 }
 
-.about_content > a {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-}
-
 .lang li a {
   font-weight: 500;
   font-size: 12px;
@@ -213,12 +206,27 @@ header ul li {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396df2;
   padding: 12px;
-  border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
 }
+
+.btn:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+.btn:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.btn:enabled {
+  color: #396df2;
+  border: 1px solid #6070ff;
+}
+
 
 /* About */
 .about {
