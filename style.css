@@ -190,15 +190,17 @@ header ul li {
 }
 
 .lang li:nth-last-child(1){
-
+ float: right;
+ padding-right: 12px;
 }
 
 .lang li:nth-last-child(2){
-
+ float: right;
+ padding-right:12px ;
 }
 
 .lang li:nth-last-child(3){
-
+  float: right;
 }
 
 .lang li a {
