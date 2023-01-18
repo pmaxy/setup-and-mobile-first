@@ -186,10 +186,19 @@ header ul li {
 }
 
 .lang {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
+  display: block;
+}
+
+.lang li:nth-last-child(1){
+
+}
+
+.lang li:nth-last-child(2){
+
+}
+
+.lang li:nth-last-child(3){
+
 }
 
 .lang li a {
