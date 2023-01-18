@@ -189,16 +189,27 @@ header ul li {
   display: block;
 }
 
-.lang li:nth-last-child(1){
-
+.drop1 li {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: baseline;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding: 12px;
+  align-items: center;
 }
 
-.lang li:nth-last-child(2){
-
+.lang li:nth-last-child(1) {
+  float: right;
 }
 
-.lang li:nth-last-child(3){
+.lang li:nth-last-child(2) {
+  float: right;
+}
 
+.lang li:nth-last-child(3) {
+  float: right;
 }
 
 .lang li a {
@@ -271,17 +282,6 @@ header ul li {
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
-}
-
-.drop1 li {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  justify-content: baseline;
-  background: #f7f7f9;
-  border-radius: 8px;
-  padding: 12px;
-  align-items: center;
 }
 
 .drop1 li p {
