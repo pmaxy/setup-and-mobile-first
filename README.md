@@ -142,7 +142,7 @@ I would like to thank my morning team, code reviewers and my partners for giving
 
 
 
-- **How to install linters**
+- **How to install linters **
 
   - follow the instructions as guided on how to intll linters 
 
