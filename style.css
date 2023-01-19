@@ -209,6 +209,7 @@ header ul li {
 }
 
 .lang li:nth-last-child(3) {
+
   float: right;
 }
 
