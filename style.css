@@ -20,7 +20,7 @@ body {
   background: #f7f7f9;
   align-items: center;
   margin: auto;
-  max-width: 400px;
+  max-width: 375px;
 }
 
 /* header */
@@ -211,9 +211,7 @@ header ul li a {
 
 .lang {
   display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
+  gap: 12px;
 }
 
 .lang li a {
@@ -305,7 +303,6 @@ header ul li a {
   line-height: 20px;
   color: #253858;
 }
-
 /* contact_form */
 .contact_info {
   background-color: white;
@@ -377,4 +374,5 @@ header ul li a {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+
 }
