@@ -59,8 +59,9 @@
     max-width: 100%;
   }
 
-  .cotent_work {
+  .content_work {
     max-width: 50%;
+    gap: 32px;
   }
 
   #work_2,
