@@ -29,12 +29,15 @@
   }
 
   .headline {
-    padding: 255px 260px;
-    background: url(/img/Header\ bgdesktop_headline.svg);
+    padding: 260px;
+    background: url(/img/Header\ bgdesktop_headline.svg), #fff;
   }
 
   .headline h1 {
     max-width: 70%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
   }
 
   .work {
@@ -44,7 +47,7 @@
   .work > div {
     display: flex;
     flex-direction: row;
-    padding: 12px;
+    padding: 48px;
     gap: 24px;
   }
 
@@ -73,16 +76,41 @@
   }
 
   .about_content {
-    width: 40%;
+    width: 50%;
   }
 
   .about_info {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
+  }
+
+  .drop1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .drop1 li {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
   }
 
   .contact {
-    padding: 0 28%;
+    justify-content: center;
+    padding: 10% 28%;
+  }
+
+  .contact input,
+  .contact textarea {
+    border-radius: 0;
+  }
+
+  .contact form {
+    justify-content: flex-start;
+  }
+
+  .contact form button {
+    align-self: center;
   }
 }
