@@ -1,0 +1,116 @@
+@media (min-width: 768px) {
+  body {
+    min-width: 100%;
+  }
+
+  header {
+    padding: 25px 155px;
+  }
+
+  header ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-direction: row;
+  }
+
+  header ul li {
+    height: auto;
+    width: auto;
+    background-color: #fff;
+  }
+
+  header ul li a {
+    visibility: visible;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .headline {
+    padding: 260px;
+    background: url(/img/Header\ bgdesktop_headline.svg), #fff;
+  }
+
+  .headline h1 {
+    max-width: 70%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .work {
+    padding: 142px;
+  }
+
+  .work > div {
+    display: flex;
+    flex-direction: row;
+    padding: 48px;
+    gap: 24px;
+  }
+
+  .img {
+    max-width: 50%;
+  }
+
+  .img img {
+    max-width: 100%;
+  }
+
+  .cotent_work {
+    max-width: 50%;
+  }
+
+  #work_2,
+  #work_4 {
+    flex-direction: row-reverse;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 142px;
+  }
+
+  .about_content {
+    width: 50%;
+  }
+
+  .about_info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .drop1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .drop1 li {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  .contact {
+    justify-content: center;
+    padding: 10% 28%;
+  }
+
+  .contact input,
+  .contact textarea {
+    border-radius: 0;
+  }
+
+  .contact form {
+    justify-content: flex-start;
+  }
+
+  .contact form button {
+    align-self: center;
+  }
+}
