@@ -60,7 +60,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](href="https://pmaxy.github.io/setup-and-mobile-first/)
+- [https://pmaxy.github.io/setup-and-mobile-first/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
