@@ -17,7 +17,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -35,7 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portiflio Setup and mobile first <a name="" href="https://pmaxy.github.io/setup-and-mobile-first/">CHECK PAGE HERE</a>
+# 📖 Portiflio Setup and mobile first <a name="" href="https://pmaxy.github.io/setup-and-mobile-first/"></a>
 
 > Introduction to the first project.
 
@@ -56,7 +56,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo" ></a>
+## 🚀 Live Demo <a name="live-demo" href="https://pmaxy.github.io/setup-and-mobile-first/" ></a>
 
 > Add a link to your deployed project.
 
