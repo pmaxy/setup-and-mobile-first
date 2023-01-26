@@ -1,16 +1,16 @@
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   body {
-    min-width: 100%;
+    min-width: fit-content;
   }
 
   header {
-    padding: 25px 155px;
+    padding: 1.5rem 9.6rem;
   }
 
   header ul {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 1.5rem;
     flex-direction: row;
   }
 
@@ -23,32 +23,32 @@
   header ul li a {
     visibility: visible;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.25rem;
     color: #344563;
   }
 
   .headline {
-    padding: 260px;
+    padding: 16.5rem;
     background: url(img/Header\ bgdesktop_headline.svg), #fff;
   }
 
   .headline h1 {
     max-width: 70%;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 3rem;
+    line-height: 3.75rem;
   }
 
   .work {
-    padding: 142px;
+    padding: 8.85rem;
   }
 
   .work > div {
     display: flex;
     flex-direction: row;
-    padding: 48px;
-    gap: 24px;
+    padding: 3rem;
+    gap: 1.5rem;
   }
 
   .img {
@@ -61,7 +61,7 @@
 
   .content_work {
     max-width: 50%;
-    gap: 32px;
+    gap: 2rem;
   }
 
   #work_2,
@@ -72,8 +72,8 @@
   .about {
     display: flex;
     flex-direction: row;
-    gap: 12px;
-    padding: 142px;
+    gap: 0.75rem;
+    padding: 8.875rem;
   }
 
   .about_content {
@@ -89,10 +89,11 @@
   .drop1 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .drop1 li {
-    flex-direction: column;
+    flex-direction: \\	 column;
     align-items: flex-start;
     padding: 12px;
   }
