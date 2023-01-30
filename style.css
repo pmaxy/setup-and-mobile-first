@@ -28,7 +28,7 @@ body {
 header {
   position: sticky;
   top: 0;
-  padding: 58px 24px 12px;
+  padding: 3.625rem 1.5rem 0.75rem;
   background-color: #fff;
   display: flex;
   flex-direction: row;
@@ -37,7 +37,7 @@ header {
 
 .logo {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: #6070ff;
 }
 
@@ -48,7 +48,7 @@ header ul {
 }
 
 header ul li {
-  height: 2px;
+  height: 0.1rem;
   width: 20px;
   background-color: #6070ff;
 }
@@ -62,9 +62,9 @@ header ul li a {
 .headline {
   display: flex;
   flex-direction: column;
-  padding: 114px 24px;
+  padding: 7.125rem 1.5rem;
   background-color: white;
-  gap: 12px;
+  gap: 0.75rem;
   border-bottom-left-radius: 50px;
   background-image: url(img/header-shapes\ mobile@2x.svg);
   background-repeat: no-repeat;
@@ -76,30 +76,30 @@ header ul li a {
   font-style: normal;
   font-weight: 700;
   max-width: 70%;
-  font-size: 42px;
-  line-height: 52px;
+  font-size: 2.6rem;
+  line-height: 3.25rem;
   color: #172b4d;
   background-color: #fff;
 }
 
 .headline p {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #344563;
 }
 
 .connect a {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #7f8cff;
 }
 
 .tags {
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 /* work */
@@ -108,7 +108,7 @@ header ul li a {
   display: grid;
   grid-template-columns: 1fr;
   gap: 100px;
-  padding: 114px 24px;
+  padding: 7.125rem 1.5rem;
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -118,11 +118,11 @@ header ul li a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 16px;
-  gap: 12px;
+  padding: 1rem;
+  gap: 0.75rem;
   background: #fff;
   border: 1px solid #dfe1e6;
-  border-radius: 16px;
+  border-radius: 1rem;
 }
 
 .img {
@@ -142,7 +142,7 @@ header ul li a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .work div > img {
@@ -153,16 +153,16 @@ header ul li a {
 .about_content h2 {
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 2.5rem;
+  line-height: 2.25rem;
   color: #172b4d;
   max-width: 60%;
 }
 
 .work div > h2 {
   font-weight: 700;
-  font-size: 35px;
-  line-height: 44px;
+  font-size: 2.2rem;
+  line-height: 2.75rem;
   color: #172b4d;
   max-width: 100%;
 }
@@ -170,50 +170,50 @@ header ul li a {
 .work-exp {
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 0.75rem;
   align-items: baseline;
   max-width: 100%;
 }
 
 .work-exp :nth-of-type(1) {
   font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   color: #344563;
 }
 
 .work-exp :nth-of-type(3) {
   font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   color: #7a869a;
 }
 
 .work-exp :nth-of-type(5) {
   font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   color: #7a869a;
 }
 
 .about_content p {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #344563;
 }
 
 .work div > p {
   font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #344563;
   max-width: 100%;
 }
 
 .lang {
   display: flex;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .lang li a {
@@ -221,17 +221,17 @@ header ul li a {
   font-size: 12px;
   line-height: 16px;
   color: #6070ff;
-  padding: 4px 12px;
+  padding: 0.25rem 0.75rem;
   background: #ebebff;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .btn {
   font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  padding: 12px;
-  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
   background-color: #fff;
 }
 
@@ -242,7 +242,7 @@ header ul li a {
 
 .btn:hover {
   background: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 0.5rem 1rem rgba(64, 83, 252, 0.24);
   color: #fff;
 }
 
@@ -259,20 +259,20 @@ header ul li a {
 /* About */
 .about {
   background: #fff;
-  padding: 114px 24px;
+  padding: 7.125rem 1.5rem;
 }
 
 .about_content {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0.75rem;
   align-items: flex-start;
 }
 
 .lang1,
 .lang2,
 .lang3 {
-  padding: 24px 0;
+  padding: 1.5rem 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -282,32 +282,32 @@ header ul li a {
 .lang2 h3,
 .lang3 h3 {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #000;
 }
 
 .drop1 {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .drop1 li {
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 0.75rem;
   justify-content: baseline;
   background: #f7f7f9;
-  border-radius: 8px;
-  padding: 12px;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
   align-items: center;
 }
 
 .drop1 li p {
   font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   color: #253858;
 }
 
@@ -320,7 +320,7 @@ header ul li a {
 .contact {
   text-align: center;
   background-color: #6070ff;
-  border-top-left-radius: 120px;
+  border-top-left-radius: 7.5rem;
   background-image: url(./img/contact\ form\ background\ shapes.svg);
   background-repeat: no-repeat;
   background-position-x: 100%;
@@ -330,21 +330,21 @@ header ul li a {
 .contact_wrapper {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  padding: 120px 24px 45px;
+  gap: 0.75rem;
+  padding: 7.5rem 1.5rem 2.9rem;
 }
 
 .contact .section_header {
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 2.1rem;
+  line-height: 3.25rem;
   color: white;
 }
 
 .contact .description {
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.35rem;
+  line-height: 1.75rem;
   color: white;
   text-align: center;
   align-items: center;
@@ -352,35 +352,35 @@ header ul li a {
 }
 
 .contact .description:hover {
-  margin-left: 40px;
+  margin-left: 2.5rem;
 }
 
 .contact form {
-  margin-top: 40px;
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .contact input,
 .contact textarea {
   font-weight: 400;
-  font-size: 17px;
+  font-size: 1rem;
   font-family: 'Poppins', sans-serif;
-  line-height: 20px;
-  padding: 14px;
+  line-height: 1.25rem;
+  padding: 0.9rem;
   background: #fff;
   border: 1px solid #cfd8dc;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .contact button {
-  padding: 12px;
+  padding: 0.75rem;
   border: 1px solid #6070ff;
   border-radius: 8px;
   color: #7777e0;
   max-width: 40%;
   font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
