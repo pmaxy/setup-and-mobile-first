@@ -3,37 +3,8 @@
     min-width: fit-content;
   }
 
-  header {
-    padding: 1.5rem 9.6rem;
-  }
-
-  header ul {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    flex-direction: row;
-  }
-
-  header ul li {
-    height: auto;
-    width: auto;
-    background-color: #fff;
-  }
-
-  header ul li a {
-    visibility: visible;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    color: #344563;
-  }
-
   .headline {
-<<<<<<< HEAD
     padding: 260px;
-=======
-    padding: 16.5rem;
->>>>>>> 68d2f9a1fa645bc4e5fdec94e622f34fc209def2
     background: url(img/Header\ bgdesktop_headline.svg), #fff;
   }
 
