@@ -393,8 +393,6 @@ header ul li a {
   align-items: flex-start;
   padding: 16px;
   gap: 12px;
-
-
   position:absolute;
   max-width: 343px;
   height: fit-content;
@@ -403,14 +401,7 @@ header ul li a {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-}
-
-.heading_pop{
-  display: flex;
-  flex-direction: row;
-  align-items:center;
-  padding: 0px;
-  justify-content: space-between;
+  
 }
 
 .popup_exp{
@@ -419,6 +410,24 @@ header ul li a {
   align-items: center;
   padding: 0px;
   gap: 12px;
+}
+.popup-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+.popup-close {
+  float: right;
+
+
+}
+
+.popup-content .popup-close {
+  font-size: 2rem;
+  margin-right: 12px;
 }
 
 .popup_exp li:nth-of-type(1){
@@ -453,7 +462,7 @@ header ul li a {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  height: 440px;
+  height: 20px;
   overflow: hidden;
 }
 
