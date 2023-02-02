@@ -28,12 +28,8 @@
     color: #344563;
   }
 
-  .headline {
-<<<<<<< HEAD
-    padding: 260px;
-=======
+  .headline{
     padding: 16.5rem;
->>>>>>> 68d2f9a1fa645bc4e5fdec94e622f34fc209def2
     background: url(img/Header\ bgdesktop_headline.svg), #fff;
   }
 
@@ -119,4 +115,22 @@
   .contact form button {
     align-self: center;
   }
+
+  /* popup menu */
+  .popup_menu{
+    max-width: 100%;
+    margin: 77px 142px;
+    border-radius: 16px;
+    left: 0;
+    right: 0;  
+    top: none;
+    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+
+  }
+
+  .imgpopup {
+    width: 90%;
+  }
+
+
 }
