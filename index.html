@@ -6,24 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PATRICK MWANGI PORTIFOLIO</title>
     <link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="desktop.css">
+	<link rel="stylesheet" href="desktop.css">
+	
 </head>
 <body>
 	
 	<!-- header -->
 	<header>
-		<div class="logo">Patrick Wanjiru</div>
-		<ul>
-			<li><a href="">Portifolio</a></li>
-			<li><a href="">Contact</a></li>
-			<li><a href="">About</a></li>
-
-		</ul>
-	</header>
+        <nav class="navbar">
+            <a href="#" class="head">Patrick</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#headline " class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+	<script src="Humburger.js" defer></script>
 
 	<!-- section headline -->
 
-	<section class="headline">
+	<section class="headline" id="headline">
 		<h1>I’m Patrick
 			Glad to see you!</h1>
 		<p>I’m a software developer! I can help 
@@ -43,7 +57,7 @@
 
 	<!-- section work -->
 
-	<section class="work">
+	<section class="work" id="work">
 		<div id="work_1">
 			<div class="img"><img src="img/tonic1.svg" alt="Tonic Poster"></div>
 			<div class="content_work">
@@ -141,7 +155,7 @@
 
 	<!-- section about -->
 
-	<section class="about">
+	<section class="about" id="about">
 		<div class="about_content">
 			<h2>About Myself</h2>
 			<p>
@@ -196,7 +210,7 @@
 
 	<!-- section contact -->
 
-	<section class="contact_info">
+	<section class="contact_info" id="contact">
 	<div class="contact" id="contact">
 		<div class="contact_wrapper">
 			<h2 class="section_header">
