@@ -125,12 +125,21 @@
     right: 0;  
     top: none;
     box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    height: fit-content;
 
   }
 
   .imgpopup {
-    width: 90%;
+    width:100%;
+    height: auto;
   }
 
+  .main_info{
+    flex-direction: row;
+  }
 
+  
+.main_info p{
+  width: 60%;
+}
 }
