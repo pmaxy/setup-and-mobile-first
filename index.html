@@ -10,9 +10,10 @@
     <script src="https://kit.fontawesome.com/dcdd89c74c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="desktop.css">
+	<script src="popup.js" defer></script>
 	
 </head>
-<body>
+<body class="body1">
 	
 	<!-- header -->
 	<header>
@@ -61,99 +62,6 @@
 	<!-- section work -->
 
 	<section class="work" id="work">
-		<div id="work_1">
-			<div class="img"><img src="img/tonic1.svg" alt="Tonic Poster"></div>
-			<div class="content_work">
-				<h2>TONIC</h2>
-				<ul class="work-exp">
-					<li>Canopy</li>
-					<li><img src="img/circle.svg" alt="Dot symbol"></li>
-					<li>Back End Dev</li>
-					<li><img src="img/circle.svg" alt="Dot symbol"></li>
-					<li>2015</li>
-				</ul>
-				<p>A daily selection of privately personalized reads; 
-					no accounts or sign-ups required.</p>
-				<ul class="lang">
-					<li><a href="">html</a></li>
-					<li><a href="">css</a></li>
-					<li><a href="">javascript</a></li>
-				</ul>
-
-				<button type="button" class="btn">See Project</button>
-		</div>
-		</div>
-
-		<div id="work_2">
-			<div class="img"><img src="img/multistories1.svg" alt="Multistories Poster"></div>
-			<div class="content_work">
-			<h2>Multi-Post
-				Stories</h2>
-			<ul class="work-exp">
-				<li>Canopy</li>
-				<li><img src="img/circle.svg" alt="Dot symbol"></li>
-				<li>Back End Dev</li>
-				<li><img src="img/circle.svg" alt="Dot Symblol"></li>
-				<li>2015</li>
-			</ul>
-			<p>A daily selection of privately personalized reads; 
-				no accounts or sign-ups required.</p>
-      <ul class="lang">
-				<li><a href="">html</a></li>
-				<li><a href="">css</a></li>
-				<li><a href="">javascript</a></li>
-			</ul>
-
-			<button type="button" class="btn">See Project</button>
-		</div>
-		</div>
-
-		<div id="work_3">
-			<div class="img"><img src="img/tonic2.svg" alt="Tonic Poster"></div>
-		    <div class="content_work">
-				<h2>TONIC</h2>
-				<ul class="work-exp">
-					<li>Canopy</li>
-					<li><img src="img/circle.svg" alt="Dot Symbol"></li>
-					<li>Back End Dev</li>
-					<li><img src="img/circle.svg" alt="Dot symbol"></li>
-					<li>2015</li>
-				</ul>
-				<p>A daily selection of privately personalized reads; 
-					no accounts or sign-ups required.</p>
-				<ul class="lang">
-					<li><a href="">html</a></li>
-					<li><a href="">css</a></li>
-					<li><a href="">javascript</a></li>
-				</ul>
-
-				<button type="button" class="btn">See Project</button>
-			</div>
-		</div>
-
-		<div id="work_4">
-			<div class="img"><img src="img/multistories2.svg" alt="Multistories symbol"></div>
-			<div class="content_work">
-				<h2>Multi-Post
-					Stories</h2>
-				<ul class="work-exp">
-					<li>Canopy</li>
-					<li><img src="img/circle.svg" alt="Dot symbol"></li>
-					<li>Back End Dev</li>
-					<li><img src="img/circle.svg" alt="Dot Symbol"></li>
-					<li>2015</li>
-				</ul>
-				<p>A daily selection of privately personalized reads; 
-					no accounts or sign-ups required.</p>
-				<ul class="lang">
-					<li><a href="">html</a></li>
-					<li><a href="">css</a></li>
-					<li><a href="">javascript</a></li>
-				</ul>
-
-				<button type="button" class="btn">See Project</button>
-			</div>
-		</div>
 	</section>
 
 	<!-- section about -->
@@ -177,7 +85,7 @@
 				<li><a href=""><img src="img/twiter.svg" alt="Twiter Account"></a></li>
 				<li><a href=""><img src="img/chill.svg" alt="Extra Account"></a></li>
 			</ul>
-			<button type="button" class="btn">Get my resume</button>
+			<button  type="button" class="btn">Get my resume</button>
 	    </div>
 		<div class="about_info">
 			<div class="lang1">
@@ -235,7 +143,7 @@
 <section class="popup_menu">
 	<div class="popup-header">
 		<h2 class="popup-title">Tonic</h2>
-		<i class="fa-solid fa-xmark popup-close"></i>
+		<button data-close-button class="closs-button">&times;</button>
 	</div>
   </div>
   <ul class="popup_exp">
@@ -285,5 +193,7 @@
   </div>
 </div>
 </section>
+<div id  ="overlay"></div>
 </body>
+<script src="popup2.js"></script>
 </html>
