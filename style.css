@@ -14,15 +14,12 @@ li {
   list-style-type: none;
 }
 
-section {
-  z-index: 0;
-}
+
 
 body {
   position: relative;
   font-family: 'Poppins', sans-serif;
-  background: #f7f7f9;
-  align-items: center;
+  background:rgba(8, 16, 83, 0.24);
   margin: auto;
   max-width: 375px;
 }
@@ -143,18 +140,56 @@ body {
 }
 
 /* headline */
-
+.profile{
+  position: fixed;
+  top: 100px;
+ 
+  width: 60px;
+  border-radius: 50%;
+}
 .headline {
   display: flex;
   flex-direction: column;
   padding: 7.125rem 1.5rem;
-  background-color: white;
   gap: 0.75rem;
   border-bottom-left-radius: 50px;
-  background-image: url(img/header-shapes\ mobile@2x.svg);
+  transition: 5s;
+  background-image: url(img/sat4.jpg);
+  background-position: center;
   background-repeat: no-repeat;
-  background-position-x: 0;
-  background-position-y: 100%;
+  background-size:cover;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 30S;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out; 
+}
+
+  
+
+@keyframes animate{
+  0%{
+    background-image: url(img/sat1.jpg);
+
+  }
+  20%{
+    background-image: url(img/sat2.jpg);
+  }
+  40%{
+    background-image: url(img/sat3.jpg);
+  }
+  60%{
+    background-image: url(img/sat5.jpg);
+  }
+  80%{
+    background-image: url(img/sat6.jpg);
+  }
+  100%{
+    background-image: url(img/sat7.jpg);
+  }
 }
 
 .headline h1 {
@@ -163,15 +198,15 @@ body {
   max-width: 70%;
   font-size: 2.6rem;
   line-height: 3.25rem;
-  color: #172b4d;
-  background-color: #fff;
+  color:#fff;
+  
 }
 
 .headline p {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #344563;
+  color: #fff;
 }
 
 .connect a {
@@ -197,6 +232,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: auto;
+  background: rgba(22, 29, 88, 0.24);
 }
 
 .work > div {
@@ -205,13 +241,9 @@ body {
   align-items: flex-start;
   padding: 1rem;
   gap: 0.75rem;
-  background: #fff;
+  background: #dad2d2;
   border: 1px solid #dfe1e6;
   border-radius: 1rem;
-}
-
-.img {
-  width: 100%;
 }
 
 .img img {
@@ -406,10 +438,10 @@ body {
   text-align: center;
   background-color: #6070ff;
   border-top-left-radius: 7.5rem;
-  background-image: url(./img/contact\ form\ background\ shapes.svg);
+  background-image: url(./img/OKANA.jpg);
   background-repeat: no-repeat;
-  background-position-x: 100%;
-  background-position-y: 100%;
+  background-position:center;
+  background-size: cover;
 }
 
 .contact_wrapper {

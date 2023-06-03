@@ -1,11 +1,37 @@
+@media (min-width: 36rem){
+  .headline {
+    padding: 7.125rem 1.5rem;
+  }
+  
+}
 @media (min-width: 48rem) {
   body {
     min-width:100%;
   }
+  .profile{
+    position: fixed;
+    top: 100px;
+    right:10px;
+    width: 90px;
+    border-radius: 50%;
+  }
 
   .headline {
     padding: 260px;
-    background: url(img/Header\ bgdesktop_headline.svg), #fff;
+    background-image: url(img/sat4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition: 5s;
+    background-color: #172b4d;
+  
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30S;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
   }
 
   .headline h1 {
