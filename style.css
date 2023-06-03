@@ -14,12 +14,10 @@ li {
   list-style-type: none;
 }
 
-
-
 body {
   position: relative;
   font-family: 'Poppins', sans-serif;
-  background:rgba(8, 16, 83, 0.24);
+  background: rgba(8, 16, 83, 0.24);
   margin: auto;
   max-width: 375px;
 }
@@ -32,7 +30,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
-  position:sticky;
+  position: sticky;
 }
 
 .nav-menu {
@@ -140,13 +138,13 @@ body {
 }
 
 /* headline */
-.profile{
+.profile {
   position: fixed;
   top: 100px;
- 
   width: 60px;
   border-radius: 50%;
 }
+
 .headline {
   display: flex;
   flex-direction: column;
@@ -157,37 +155,38 @@ body {
   background-image: url(img/sat4.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
-
+  background-size: cover;
   animation-name: animate;
   animation-direction: alternate-reverse;
-  animation-duration: 30S;
+  animation-duration: 30s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-play-state: running;
-  animation-timing-function: ease-in-out; 
+  animation-timing-function: ease-in-out;
 }
 
-  
-
-@keyframes animate{
-  0%{
+@keyframes animate {
+  0% {
     background-image: url(img/sat1.jpg);
-
   }
-  20%{
+
+  20% {
     background-image: url(img/sat2.jpg);
   }
-  40%{
+
+  40% {
     background-image: url(img/sat3.jpg);
   }
-  60%{
+
+  60% {
     background-image: url(img/sat5.jpg);
   }
-  80%{
+
+  80% {
     background-image: url(img/sat6.jpg);
   }
-  100%{
+
+  100% {
     background-image: url(img/sat7.jpg);
   }
 }
@@ -198,8 +197,7 @@ body {
   max-width: 70%;
   font-size: 2.6rem;
   line-height: 3.25rem;
-  color:#fff;
-  
+  color: #fff;
 }
 
 .headline p {
@@ -440,7 +438,7 @@ body {
   border-top-left-radius: 7.5rem;
   background-image: url(./img/OKANA.jpg);
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
   background-size: cover;
 }
 
